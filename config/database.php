@@ -91,6 +91,12 @@ return [
             'prefix_indexes' => true,
         ],
 
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn'=>'mongodb+srv://mfia_admin:4qFSkONs9PKFGA3G@mfia.wn9no.mongodb.net/mfia?retryWrites=true&w=majority',
+            'database' => 'mfia',
+        ]
+        ,
     ],
 
     /*
