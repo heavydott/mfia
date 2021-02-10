@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "Mfia",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "App for game host",
     "keywords": [
         "framework",
         "laravel"

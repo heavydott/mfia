@@ -8,4 +8,8 @@ class Test extends Eloquent
 {
     protected $collection = 'test';
     protected $fillable = ['name', 'test'];
+
+    public function atests() {
+        return $this->belongsToMany('App\Models\Atest');
+    }
 }
